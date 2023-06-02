@@ -1,0 +1,47 @@
+:root {
+  /* colors */
+  --color-black-darker: hsl(250, 8%, 0%);
+  --color-black-dark: hsl(250, 8%, 8%);
+  --color-black: hsl(240, 12%, 10%);
+  --color-black-light: hsl(240, 10%, 13%);
+  --color-black-lighter: hsl(0, 0%, 91%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-white-dark: hsl(0, 0%, 62%);
+  --color-white-darker: hsl(240, 10%, 23%);
+  --color-danger-dark: hsl(12, 99%, 53%);
+  --color-danger: hsl(12, 99%, 59%);
+  --color-danger-light: hsl(12, 99%, 65%);
+  /* fonts */
+  /* --manrope-font: "Manrope", sans-serif; */
+  --montserrat-font: "Montserrat", sans-serif;
+  /* spacing */
+  --space-unit: 1rem;
+  --space-xxxxs: calc(0.125 * var(--space-unit));
+  --space-xxxs: calc(0.25 * var(--space-unit));
+  --space-xxs: calc(0.375 * var(--space-unit));
+  --space-xs: calc(0.5 * var(--space-unit));
+  --space-sm: calc(0.75 * var(--space-unit));
+  --space-md: calc(1.25 * var(--space-unit));
+  --space-lg: calc(1.875 * var(--space-unit));
+  --space-xl: calc(2 * var(--space-unit));
+  --space-xxl: calc(2.5 * var(--space-unit));
+  /* border radius */
+  --radius: 0.25rem;
+  --radius-md: var(--radius);
+  --radius-xl: calc(5 * var(--radius));
+  --radius-xxl: calc(7.5 * var(--radius));
+  --radius-xxxl: calc(10 * var(--radius));
+  --radius-xxxxl: calc(12.5 * var(--radius));
+  /* box shadow */
+  --shadow-black: 0 10px 30px hsla(0, 0%, 0%, 0.5);
+  --shadow-red: 0 7px 20px hsla(0, 83%, 66%, 0.2);
+  /* color oapcity */
+  --color-black-opacity: hsla(240, 12%, 10%, 0.8);
+  /* timing functions */
+  --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-sm: all 0.15s var(--ease-in) 0s;
+  --transition: all 0.2s var(--ease-in) 0s;
+}
